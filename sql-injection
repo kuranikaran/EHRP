@@ -1,0 +1,3 @@
+
+" or ""="
+SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"="%";
