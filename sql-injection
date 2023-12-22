@@ -12,3 +12,5 @@ URL ENCODING FUNCTION
 [ ] Space = %20
 + = %2B
 # = %23
+
+https://portswigger.net/web-security/sql-injection/cheat-sheet
