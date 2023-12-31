@@ -100,3 +100,7 @@ HTML Encoding
 &amp; — &
 &lt; — <
 &gt; — >
+
+Any character can be HTML-encoded using its ASCII code in decimal form:
+n &#34; — "
+n &#39; — '
