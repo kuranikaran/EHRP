@@ -102,5 +102,9 @@ HTML Encoding
 &gt; — >
 
 Any character can be HTML-encoded using its ASCII code in decimal form:
-n &#34; — "
-n &#39; — '
+&#34; — "
+&#39; — '
+
+ASCII code in hexadecimal form:
+&#x22; — "
+&#x27; — '
