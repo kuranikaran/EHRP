@@ -85,3 +85,10 @@ n %0a — New line
 n %00 — Null byte
 
 FREQ USED (space % ? & = ; + #)
+
+
+Unicode Encoding  16-bit
+
+%u2215 — /
+%u00e9 — é
+%e2%89%a0 — z [not equal]
