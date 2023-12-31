@@ -92,3 +92,11 @@ Unicode Encoding  16-bit
 %u2215 — /
 %u00e9 — é
 %e2%89%a0 — z [not equal]
+
+HTML Encoding
+
+&quot; — "
+&apos; — '
+&amp; — &
+&lt; — <
+&gt; — >
