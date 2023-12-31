@@ -56,6 +56,10 @@ If SELECT is blocked, try SeLeCt
 n If or 1=1-- is blocked, try or 2=2--
 n If alert(‘xss’) is blocked, try prompt(‘xss’)
 
+
+<script>   ---------------->  <scr<script>ipt>
+..\  ---------------->   ....\
+
 SELECT/*foo*/username,password/*foo*/FROM/*foo*/users
 <img%09onerror=alert(1) src=a>
 
