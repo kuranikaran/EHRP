@@ -83,3 +83,5 @@ n %25 — %
 n %20 — Space
 n %0a — New line
 n %00 — Null byte
+
+FREQ USED (space % ? & = ; + #)
