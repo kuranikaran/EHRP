@@ -66,3 +66,20 @@ SELECT/*foo*/username,password/*foo*/FROM/*foo*/users
 %00<script>alert(1)</script>
 
 https://portswigger.net/web-security/sql-injection/cheat-sheet
+
+Status Codes
+n 1xx — Informational.
+n 2xx — The request was successful.
+n 3xx — The client is redirected to a different resource.
+n 4xx — The request contains an error of some kind.
+n 5xx — The server encountered an error fulfi lling the request.
+
+
+Url encoding Range
+ASCII code is in the range 0x20 to 0x7e,
+
+%3d — =
+n %25 — %
+n %20 — Space
+n %0a — New line
+n %00 — Null byte
