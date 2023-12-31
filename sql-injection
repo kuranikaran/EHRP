@@ -49,4 +49,8 @@ URL ENCODING FUNCTION
 + = %2B
 # = %23
 
+If SELECT is blocked, try SeLeCt
+n If or 1=1-- is blocked, try or 2=2--
+n If alert(‘xss’) is blocked, try prompt(‘xss’)
+
 https://portswigger.net/web-security/sql-injection/cheat-sheet
