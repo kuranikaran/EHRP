@@ -137,3 +137,7 @@ Identifi able web server software — Common confi guration weaknesses, known so
 
 
 IDOR -- ID,PID,UID
+
+TIME ASED SQLi
+Select name from students where id=121 AND (if the 1st character of the password= ‘a’ then
+sleep for 10 seconds)—+
