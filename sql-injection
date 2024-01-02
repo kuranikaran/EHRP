@@ -133,3 +133,7 @@ E-mail interaction — E-mail and/or command injection
 Native code components or interaction — Buffer overfl ows
 Use of third-party application components — Known vulnerabilities
 Identifi able web server software — Common confi guration weaknesses, known software bugs
+
+
+
+IDOR -- ID,PID,UID
