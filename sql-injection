@@ -141,3 +141,7 @@ IDOR -- ID,PID,UID
 TIME ASED SQLi
 Select name from students where id=121 AND (if the 1st character of the password= ‘a’ then
 sleep for 10 seconds)—+
+
+
+Boolean Based SQLI
+Select name from students where id=121 AND (get first_character_of(password))="a‘--
