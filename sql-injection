@@ -150,3 +150,9 @@ sleep for 10 seconds)—+
 
 Boolean Based SQLI
 Select name from students where id=121 AND (get first_character_of(password))="a‘--
+
+-----OS COMMAND INJECTION
+Ping Check Box --> [127.0.0.1]     //USER POV
+Ping Check Box --> [127.0.0.1  && cat /etc/passwd]  //Attacker POV
+
+
