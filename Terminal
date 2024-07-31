@@ -4,4 +4,4 @@ if rm-rf * is not working we can use    --------   rm -rf ./* .[^.] .??*
 print last 5 lines  ------- tail -5 txt.log 
 make a folder & subfolder ----- mkdir -p home/files 
 symbolic link -- reference to another file ----- ln -s
-
+1;2;3;4  to 1,2,3,4  ----  tr ';' '\n' < split-me.txt
