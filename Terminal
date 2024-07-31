@@ -5,3 +5,4 @@ print last 5 lines  ------- tail -5 txt.log
 make a folder & subfolder ----- mkdir -p home/files 
 symbolic link -- reference to another file ----- ln -s
 1;2;3;4  to 1,2,3,4  ----  tr ';' '\n' < split-me.txt
+reverse contain of file ----  tac reverse-me.txt
