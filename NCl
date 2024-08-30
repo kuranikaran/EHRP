@@ -1,0 +1,49 @@
+Enumeration & Exploition  NCl
+
+#!/usr/bin/python
+
+import sys
+
+def main():
+  if len(sys.argv) != 2:
+    print("Invalid args")
+    return
+  password = sys.argv[1]
+  builder = 0
+  for c in password:
+    builder += ord(c)
+  if builder == 1000 and len(password) == 10 and ord(password[1]) == 83:
+    print("correct")
+  else:
+    print("incorrect")
+
+if __name__ == "__main__":
+  main()
+
+----------------------------------------------------
+                    Solution
+----------------------------------------------------
+def construct_password():
+    # ASCII values
+    target_sum = 917
+    length = 9
+    char_value = 101  # ASCII for 'e'
+    remainder = 8     # Remainder to adjust
+
+    # Start with all 'e'
+    password = [char_value] * length
+
+    # Adjust the last character to account for the remainder
+    password[-1] += remainder
+
+    # Convert ASCII values to characters
+    password_str = ''.join(chr(v) for v in password)
+
+    # Insert 'S' as the second character
+    final_password = password_str[:1] + 'S' + password_str[1:]
+
+    return final_password
+
+# Generate and print the password
+password = construct_password()
+print(f"Possible password: {password}")
